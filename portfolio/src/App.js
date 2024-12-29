@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -12,12 +12,12 @@ function App() {
     <Router>
       <Header />
       <main>
-        <Switch>
-          <Route path="/about" component={About} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/services" component={Services} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </main>
       <Footer />
     </Router>
