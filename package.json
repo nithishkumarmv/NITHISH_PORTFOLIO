@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://nithishkumarmv.github.io/NITHISH_PORTFOLIO",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -11,7 +12,6 @@
     "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1"
   },
-  "homepage": "https://nithishkumarmv.github.io/NITHISH_PORTFOLIO/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
