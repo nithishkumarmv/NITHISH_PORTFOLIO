@@ -11,7 +11,7 @@
     "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1"
   },
-  "homepage": "https://nithishkumarmv.github.io/NITHISH_PORTFOLIO",
+  "homepage": "https://nithishkumarmv.github.io/NITHISH_PORTFOLIO/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
